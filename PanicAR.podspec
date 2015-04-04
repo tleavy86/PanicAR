@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Andreas Zeitler" => "azeitler@dopanic.com" }
   s.source       = { 
     :git => "https://github.com/doPanic/PanicAR.git",
-    :tag => "#{s.version.to_s}"
+    :tag => "v#{s.version.to_s}"
   }
   s.platform        = :ios, '6.0'
   s.frameworks      =  'AVFoundation', 'CoreLocation', 'CoreMotion', 'CoreVideo', 'CoreMedia', 'CoreGraphics', 'UIKit', 'Foundation', 'QuartzCore', 'MapKit', 'PanicARKit'
